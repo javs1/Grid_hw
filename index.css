@@ -1,0 +1,30 @@
+.main_container{
+  place-items: center;
+}
+
+.cards_container{
+    display: grid;   
+    grid-template-columns: auto auto auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.n1{
+    background-color: #e38826;
+}
+
+.n2{
+    background-color: #006970;
+}
+
+.n3{
+    background-color: #004241;
+}
+
+body{
+    background-color: rgb(255, 244, 226);
+}
