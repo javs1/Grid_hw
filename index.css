@@ -4,27 +4,81 @@
 
 .cards_container{
     display: grid;   
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 50%;
-    width: 70%;
+    width: 60%;
     transform: translate(-50%, -50%);
 }
 
+.card{
+    color: white;
+    padding: 15%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
 .n1{
-    background-color: #e38826;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 15px 0 0 15px;
 }
 
 .n2{
-    background-color: #006970;
+    background-color: hsl(184, 100%, 22%);
 }
 
 .n3{
-    background-color: #004241;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 15px 15px 0;
+}
+
+.luxury{
+    color: hsl(179, 100%, 13%);
+}
+
+.suvs{
+    color: hsl(184, 100%, 22%);
+}
+
+.sedans{
+    color: hsl(31, 77%, 52%);
+}
+
+p{
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    flex: 1 1 auto;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    flex: 1 1 auto;
 }
 
 body{
-    background-color: rgb(255, 244, 226);
+    background-color: hsl(0, 0%, 95%);
+}
+
+img{
+    width: 64px;
+}
+
+.btn{
+    border-radius: 20px;
+    align-self: flex-start;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid white;
+    font: 15px;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: white;
 }
